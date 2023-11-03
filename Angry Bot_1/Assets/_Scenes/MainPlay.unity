@@ -26541,6 +26541,9 @@ MonoBehaviour:
   shotPoint: {fileID: 287097529}
   shotFx: {fileID: 1839651228}
   shotSound: {fileID: 8300000, guid: 0577a8f15335d2843aa73eedf7c4be40, type: 3}
+  lifeBar: {fileID: 0}
+  maxHp: 100
+  hp: 100
 --- !u!4 &1363084949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400058, guid: 0cb166872f473b1479c380f5d46e67e6, type: 3}
@@ -40631,7 +40634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4069176
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -40639,7 +40642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.903582
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -40673,6 +40676,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 183acc05de300f54f88238ac035bd402, type: 2}
+    - target: {fileID: 7542717505335230372, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542717505335230372, guid: a141e1a63a9d4034ca33f431f936a8e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
